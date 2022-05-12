@@ -5,6 +5,7 @@ import {useEffect, useState} from "react";
 function App() {
   const [message, setMessage] = useState([]);
 
+  // useEffect
   useEffect(() => {
     fetch("/hello")
         .then((response) => {
